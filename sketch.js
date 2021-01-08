@@ -219,7 +219,7 @@ async function getBackgroundImage (){
     var responseJSON = await response.json();
     var dateTime = responseJSON.datetime;
     var hour = dateTime.slice(11,13)
-    if(hour>=06&&hour<=16){
+    if(hour>=06&&hour<=13){
     bg="bg1.o.jpg";
     }else{
     bg="bg2.o.jpg"   
